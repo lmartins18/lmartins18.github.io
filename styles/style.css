@@ -1,5 +1,5 @@
 body {
-  background-color: #feeafa;
+  background-color: #ff7043;
   color: #252627;
   font-family: Georgia, serif;
   text-align: center;
@@ -15,5 +15,48 @@ ul#warehouse-list {
   list-style-type: circle;
 }
 h2 {
-  text-shadow: 2px 2px 5px #ba1f33;
+  text-shadow: 2px 2px 5px #ffe082;
+}
+#top-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  margin: 1rem 0;
+}
+#top-details-container {
+  margin: auto 5rem;
+}
+#profile-image {
+  width: 7rem;
+  margin: 10px;
+  border: 5px solid #333;
+  border-radius: 100px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+}
+/* Navbar */
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+  background-color: #111;
+  color: #ffe082;
 }
